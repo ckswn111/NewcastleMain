@@ -695,7 +695,7 @@ button:focus {
   .home_banner .banner_left {
     background: #f9f9ff;
     height: 100vh;
-    padding: 0 10%; }
+    padding: 0 10 %; }
     @media (max-width: 480px) {
       .home_banner .banner_left {
         padding-top: 150px; } }
@@ -3431,7 +3431,12 @@ h6 {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
   .testimonials_area .testi_slider .item img {
-    border-radius: 5px; }
+    border-radius: 5px; 
+  max-height: 420px
+  }
+     @media (max-width: 1440px) {
+      .testimonials_area .testi_slider .item img {
+        max-height: 300px} }
   .testimonials_area .testi_slider .item .col-lg-8 {
     vertical-align: middle;
     align-self: center; }
@@ -3450,7 +3455,8 @@ h6 {
     .testimonials_area .testi_slider .item .testi_text p {
       font-style: italic;
       margin-bottom: 0px;
-      max-width: 590px; }
+      max-width: 590px; 
+    max-height:290px;}
 
 /* End Testimonials Area css
 ============================================================================================ */
