@@ -3431,7 +3431,12 @@ h6 {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%); }
   .testimonials_area .testi_slider .item img {
-    border-radius: 5px; }
+    border-radius: 5px; 
+  max-height: 420px
+  }
+     @media (max-width: 1440px) {
+      .testimonials_area .testi_slider .item img {
+        max-height: 300px} }
   .testimonials_area .testi_slider .item .col-lg-8 {
     vertical-align: middle;
     align-self: center; }
